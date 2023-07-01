@@ -3,11 +3,11 @@
     "Id": "Policy1686269685957",
     "Statement": [
         {
-            "Sid": "Stmt1686269683150",
+            "Sid": "PermissaoAcessoLeitura",
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::notas-emitidas-bucket/*"
+            "Resource": "arn:aws:s3:::NOME_DO_BUCKET_AQUI/*"
         }
     ]
 }
